@@ -38,11 +38,11 @@ Group types: **Normal** means outsiders cannot hear you but you can hear nearby 
 
 ## Server pairing
 
-Use [VoiceChat-Server-Side](https://github.com/peecer/VoiceChat-Server-Side). It targets Minecraft 26.3 and includes the ViaFabric/ViaVersion/ViaBackwards compatibility stack to accept this older client. This is intended for vanilla-style servers; arbitrary mods adding new blocks/items are not made compatible by this bridge.
+Use [VoiceChat-Server-Side](https://github.com/peecer/VoiceChat-Server-Side). It now targets Leaf/Paper Minecraft 26.3, matching the supplied server log, and uses the Bukkit versions of ViaVersion/ViaBackwards to accept this older client. Install Peecer Voice TCP Paper 1.0.1 and Simple Voice Chat Bukkit on the server; this client add-on 1.0.0 stays unchanged. This is intended for vanilla-style servers; arbitrary mods adding new blocks/items are not made compatible by this bridge.
 
 ## Troubleshooting
 
-- A crossed-out plug means the voice connection is not established. With both TCP add-ons installed, the server must allow its separate **TCP** voice port (default 24454). Opening only the Minecraft game port is insufficient. No UDP port is needed.
+- A crossed-out plug means the voice connection is not established. With both TCP add-ons installed, the server must allow its separate **TCP** voice port (25791 for this host). Opening only the Minecraft game port is insufficient. No UDP port is needed.
 - An operator can run `/voicechat test PLAYERNAME`.
 - Check the selected mic, push-to-talk binding and operating-system microphone permission.
 - If group creation is unavailable, verify `enable_groups=true` on the server.
