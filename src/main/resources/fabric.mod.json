@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "peecer_voice_tcp_client",
+  "version": "1.0.0",
+  "name": "Peecer Voice TCP Client",
+  "description": "TCP transport for Simple Voice Chat; requires matching TCP add-on on both endpoints.",
+  "authors": [
+    "peecer"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "voicechat": [
+      "peecer.voice.tcp.ClientPlugin"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.18.2",
+    "java": ">=21",
+    "voicechat": "*"
+  }
+}
