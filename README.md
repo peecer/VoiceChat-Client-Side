@@ -4,6 +4,10 @@
 
 Simple proximity voice chat plus named, password-protected groups that work across the world. This repository provides an original **Peecer Voice TCP** transport add-on and packages **Simple Voice Chat by Max Henkel** for its microphone setup, proximity audio and group interface. Both endpoints must have the TCP add-on. The voice engine remains upstream Simple Voice Chat.
 
+## Fabric 26.x client builds
+
+The `fabric-26.x` folder includes separate setup instructions and official Simple Voice Chat 2.6.26 downloads for Minecraft **26.1, 26.2, and 26.3**. These builds use Fabric Loader 0.20.1+ and Java 25+. The same Peecer TCP client add-on is included for all three versions and for the existing 1.21.11 client. Open each version folder and follow its README.
+
 ## Exact client target
 
 - Minecraft **1.21.11**
